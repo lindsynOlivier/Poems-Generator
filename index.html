@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>LO-Ai-Poems-Generator</title>
+  </head>
+  <body class="container">
+    <h1>Ai Emotions Poem Generator</h1>
+    <main>
+      <form id="poem-generator">
+        <input
+          type="text"
+          placeholder="Enter Poem topic..."
+          autofocus
+          required
+          class="instructions"
+          id="user-instructions"
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+      <div class="poem" id="Poems"></div>
+    </main>
+    <footer>
+      This Ai project was coded by
+      <a href="https://github.com/lindsynOlivier" target="_blank">Lindsyn Olivier</a> and
+      is open sourced on
+      <a href="https://github.com/lindsynOlivier/Poems-Generator" target="_blank"
+        >Github</a
+      >
+      and hosted on
+      <a href="https://poemsgenerator.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
